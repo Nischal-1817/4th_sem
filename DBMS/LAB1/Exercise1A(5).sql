@@ -1,0 +1,13 @@
+use iiit;
+create table Course(department varchar(255) not null ,subject varchar(255) ,Course_id varchar(255),primary key(subject,Course_id));
+insert into Course(department,subject,Course_id) values('CS','DSA','CS1002');
+insert into Course(department,subject,Course_id) values('CS','DAA','CS1003');
+insert into Course(department,subject,Course_id) values('EC','SPD','DS002');
+insert into Course(department,subject,Course_id) values('CS','STD','DS003');
+insert into Course(department,subject,Course_id) values('ME1','Design','DS001');
+insert into Course(department,subject,Course_id) values('ME2','Video Editing','EL006');
+insert into Course(department,subject,Course_id) values('CS','DSCS','CS1004');
+insert into Course(department,subject,Course_id) values('EC','Electrical Instruments','EC1003');
+insert into Course(department,subject,Course_id) values('ME1','Engineering Graphics','ME1100');
+insert into Course(department,subject,Course_id) values('ME2','Materials','ME2101');
+select * from Course;

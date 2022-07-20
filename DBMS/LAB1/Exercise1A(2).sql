@@ -1,0 +1,13 @@
+use iiit;
+create table Faculty(Faculty_id varchar(255),Faculty_name varchar(255) not null,Department varchar(255) not null,Subject varchar(255) not null,primary key(Faculty_id));
+insert into Faculty(Faculty_id,Faculty_name,Department,Subject) values('F001','Sadagopan','CS','DAA');
+insert into Faculty(Faculty_id,Faculty_name,Department,Subject) values('F002','Jagadeesh','CS','DBMS');
+insert into Faculty(Faculty_id,Faculty_name,Department,Subject) values('F003','Gurunathan','DS','Materials');
+insert into Faculty(Faculty_id,Faculty_name,Department,Subject) values('F004','RPP','CS','DSA');
+insert into Faculty(Faculty_id,Faculty_name,Department,Subject) values('F005','Rahul','EC','COA');
+insert into Faculty(Faculty_id,Faculty_name,Department,Subject) values('F006','Umarani','CS','OOPS');
+insert into Faculty(Faculty_id,Faculty_name,Department,Subject) values('F007','Chitti','EC','Electricals');
+insert into Faculty(Faculty_id,Faculty_name,Department,Subject) values('F008','Tapas','PS','EM');
+insert into Faculty(Faculty_id,Faculty_name,Department,Subject) values('F009','Sudhir','DS','Design');
+insert into Faculty(Faculty_id,Faculty_name,Department,Subject) values('F010','Bingi','DS','SPD');
+select * from faculty;

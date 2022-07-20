@@ -1,0 +1,13 @@
+use iiit;
+create table Building(Building_name varchar(100) NOT NULL,Room_no int NOT NULL UNIQUE,Floor int NOT NULL);
+insert into Building(Building_name,Room_no,Floor) values('Ashoka',200,1);
+insert into Building(Building_name,Room_no,Floor) values('Ashoka',201,1);
+insert into Building(Building_name,Room_no,Floor) values('Ashoka',202,1);
+insert into Building(Building_name,Room_no,Floor) values('Ashoka',300,2);
+insert into Building(Building_name,Room_no,Floor) values('Banyan',301,2);
+insert into Building(Building_name,Room_no,Floor) values('Banyan',302,2);
+insert into Building(Building_name,Room_no,Floor) values('Banyan',303,2);
+insert into Building(Building_name,Room_no,Floor) values('Jasmine',401,3);
+insert into Building(Building_name,Room_no,Floor) values('Jasmine',402,3);
+insert into Building(Building_name,Room_no,Floor) values('Jasmine',404,3);
+select * from Building;

@@ -1,0 +1,13 @@
+use iiit;
+create table Student(Student_id varchar(255),Student_name varchar(255) not null,Department varchar(100) not null,Course varchar(255),Building_name varchar(100) not null,primary key(Student_id));
+insert into Student(Student_id,Student_name,Department,Course,Building_name) values('CS1109','Nischal','CS','CSE','Banyan');
+insert into Student(Student_id,Student_name,Department,Building_name) values('CS1002','Srinivas','CS','Ashoka');
+insert into Student(Student_id,Student_name,Department,Building_name) values('CS1044','Avinash','CS','Ashoka');
+insert into Student(Student_id,Student_name,Department,Building_name) values('CS1047','Madhav','CS','Ashoka');
+insert into Student(Student_id,Student_name,Department,Course,Building_name) values('CS1005','Sasank','CS','AI','Yamuna');
+insert into Student(Student_id,Student_name,Department,Course,Building_name) values('CS1006','Sravanth','CS','AI','Jasmine');
+insert into Student(Student_id,Student_name,Department,Course,Building_name) values('CS1007','Jaswanth','CS','ML','Jasmine');
+insert into Student(Student_id,Student_name,Department,Course,Building_name) values('CS1008','Arun','CS','ML','Banyan');
+insert into Student(Student_id,Student_name,Department,Course,Building_name) values('CS1009','Praveen','CS','Webdev','Banyan');
+insert into Student(Student_id,Student_name,Department,Course,Building_name) values('CS1010','Sanjay','CS','Webdev','Banyan');
+select * from student;

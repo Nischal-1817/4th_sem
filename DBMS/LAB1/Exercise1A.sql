@@ -1,0 +1,13 @@
+use iiit;
+create table if not exists IIITDM(faculty_name varchar(255) ,student_id int,building_name varchar(255),primary key(faculty_name,student_id));
+insert into iiitdm(faculty_name,student_id,building_name) values('Sadagopan Narasimham',001,'Ashoka');
+insert into iiitdm(faculty_name,student_id,building_name) values('Sudhir V',002,'Banyan');
+insert into iiitdm(faculty_name,student_id,building_name) values('Chitti Babu',003,'Banyan');
+insert into iiitdm(faculty_name,student_id,building_name) values('Bingi',004,'Ashoka');
+insert into iiitdm(faculty_name,student_id,building_name) values('Subramani M',005,'Ashoka');
+insert into iiitdm(faculty_name,student_id,building_name) values('Priyanka Kokil',006,'Jasmine');
+insert into iiitdm(faculty_name,student_id,building_name) values('Umarani J',007,'Jasmine');
+insert into iiitdm(faculty_name,student_id,building_name) values('Ram Prasad Padhy',008,'Banyan');
+insert into iiitdm(faculty_name,student_id,building_name) values('Venkatesh Pandiri',009,'Banyan');
+insert into iiitdm(faculty_name,student_id,building_name) values('Gurunathan C',010,'Ashoka');
+select * from iiitdm;
